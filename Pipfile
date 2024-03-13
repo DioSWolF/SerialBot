@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+random-word = "*"
+aiohttp = "==3.8.3"
+requests = "==2.28.1"
+lxml = "*"
+beautifulsoup4 = "==4.11.1"
+pillow = "==9.2.0"
+asyncio = "==3.4.3"
+pytelegrambotapi = "==4.7.1"
+fake-useragent = "*"
+aiofile = "*"
+sqlalchemy = "*"
+alembic = "*"
+aiofiles = "*"
+apscheduler = "*"
+pandas = "*"
+asincio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
